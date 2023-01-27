@@ -1,0 +1,44 @@
+html{
+    width: 100%;
+    height: 100vh;
+    font-family: Lato, sans-serif;
+}
+
+.splash{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    color: Black;
+    z-index: 200;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.splash-header{
+    border: medium solid black;
+    padding: 1em;
+    font-family: Lato, sans-serif;
+    font-size: 2em;
+    animation: SplashFadeInBorder 1.5s ease-out 1s 1 normal forwards, SplashHeaderToNavbar 3s ease-in-out 3s 1 normal forwards;
+}
+.splash-title{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+@keyframes SplashFadeInBorder {
+    to {
+        border: medium solid rgba(255, 255, 255, 0%);
+    }
+}
+
+@keyframes SplashHeaderToNavbar {
+    to {
+        position: absolute;
+        transform: translateY(-45vh) scale(0.5);
+        #transform-origin: top center;
+    }
+}
