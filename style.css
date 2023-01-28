@@ -3,7 +3,7 @@ body{
     margin: 0;
 }
 
-.nav{
+nav{
     position: absolute;
     top: 0;
     left: 0;
@@ -14,8 +14,40 @@ body{
     justify-content: center;
     animation: SplashHeaderToNavbar 3s ease-in-out 3s 1 normal forwards;
 }
-.nav-left{
-
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.nav-links{
+    display: flex;
+    gap: 10%;
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in 6s normal forwards;
+}
+.nav-link{
+    display: inline-block;
+    flex-shrink: 0;
+    position: relative;
+}
+.nav-link::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-out;
+}
+.nav-link:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.nav-download{
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in 6s normal forwards;
 }
 .splash-header{
     border: medium solid black;
@@ -39,6 +71,12 @@ body{
 @keyframes SplashHeaderToNavbar {
     to {
         height: 20vh;
-        font-size: 0.5em;
+        font-size: 0.8em;
+    }
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 100;
     }
 }
