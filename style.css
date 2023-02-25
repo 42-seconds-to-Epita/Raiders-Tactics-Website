@@ -1,0 +1,52 @@
+:root
+{
+    --primary-color: #333652;
+    --secondary-color: #FF5D00;
+    --black-color: #071125;
+    --white-color: #D8E1E7;
+}
+
+html
+{
+    font-family: "Poppins", sans-serif;
+    color: white;
+    background-color: var(--black-color);
+}
+
+header
+{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo
+{
+    font-size: 2em;
+    color: white;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+nav
+{
+    width: 20%;
+}
+
+nav > ul
+{
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+}
+
+nav > ul > li
+{
+    padding: 0 5% 0 5%;
+}
+
+nav > ul > li > a
+{
+    color: white;
+}
