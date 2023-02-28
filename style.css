@@ -13,6 +13,7 @@ html
     background-color: var(--black-color);
 }
 
+/* Header Part */
 header
 {
     height: 10vh;
@@ -29,28 +30,33 @@ header
     text-decoration: none;
 }
 
-nav
-{
-    width: 20%;
-}
-
 nav > ul
 {
+    margin: 0;
     padding: 0;
     display: flex;
     list-style-type: none;
 }
 
 nav > ul > li {
-    padding: 0 5% 0 5%;
+    transform: skew(-16deg);
+    transition: background-color 0.2s;
+}
+
+nav > ul > li:hover
+{
     background-color: var(--secondary-color);
 }
 
 nav > ul > li > a
 {
+    font-size: 1em;
+    font-weight: 800;
+    display: block;
+    transform: skewX(16deg);
     color: white;
     text-decoration: none;
-    padding: 20%;
+    padding: 20px;
 }
 
 
