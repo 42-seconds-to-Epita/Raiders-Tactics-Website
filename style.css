@@ -69,7 +69,7 @@ nav > ul > li > a
 }
 
 /* landing page */
-section
+#game
 {
     height: 100vh;
     background-image: url('src/img/landing.jpg');
@@ -80,7 +80,7 @@ section
     align-items: center;
 }
 
-section > .container
+#game > .container
 {
     display: flex;
     flex-direction: row;
@@ -88,14 +88,14 @@ section > .container
     align-items: center;
 }
 
-section > .container > .description
+#game > .container > .description
 {
     width: 40%;
 }
 
-section > .container > img
+#game > .container > img
 {
-
+    width: 30%;
 }
 
 h2
@@ -112,7 +112,8 @@ em
     text-transform: uppercase;
 }
 
-.btn-grad {
+.btn-grad
+{
     background-image: linear-gradient(to right, #fe8c00 0%, #f83600  51%, #fe8c00  100%);
     margin: 10px;
     padding: 15px 45px;
@@ -126,8 +127,37 @@ em
     text-decoration: none;
 }
 
-.btn-grad:hover {
+.btn-grad:hover
+{
     background-position: right center; /* change the direction of the change here */
     color: #fff;
     text-decoration: none;
+}
+
+/* Team */
+#team
+{
+    background-color: var(--primary-color);
+    padding: 10vh 0 0 0;
+    text-align: center;
+}
+
+#team > .members
+{
+    padding: 3vh 15% 0 15%;
+    display: flex;
+    justify-content: space-around;
+    gap: 10%;
+}
+
+#team > .members > article
+{
+    padding: 1%;
+    border-radius: 10px;
+}
+
+#team > .members > article > img
+{
+    width: 100%;
+    border-radius: 20px;
 }
