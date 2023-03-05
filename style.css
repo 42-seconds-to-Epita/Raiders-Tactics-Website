@@ -138,7 +138,7 @@ em
 #team
 {
     background-color: var(--primary-color);
-    padding: 10vh 0 0 0;
+    padding: 10vh 0 10vh 0;
     text-align: center;
 }
 
@@ -160,4 +160,37 @@ em
 {
     width: 100%;
     border-radius: 20px;
+}
+
+/* Downlaod */
+#download
+{
+    padding: 10vh 0 10vh 0;
+    text-align: center;
+}
+
+#download h3
+{
+    font-size: 2em;
+}
+
+#download ul
+{
+    margin: 0;
+    list-style-type: none;
+    padding: 0 30% 0 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+#download li
+{
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5% 0 5%;
 }
