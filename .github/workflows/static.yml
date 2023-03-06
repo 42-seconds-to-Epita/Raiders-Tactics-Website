@@ -21,7 +21,16 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  # Single deploy job since we're just deploying
+  i18n:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - run: npm i static-i18n
+      - run: static-i18n -l fr -i en -i fr . --outputDir .
+  
   deploy:
     environment:
       name: github-pages
