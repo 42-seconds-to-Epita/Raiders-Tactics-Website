@@ -33,10 +33,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
-      - name: Install static-i18n
-        run: npm i -g static-i18n
-      - name: Translate web pages
-        run: static-i18n -l fr -i en -i fr . --outputDir 
+      - run: npm i -g static-i18n
+      - run: static-i18n -l fr -i en -i fr . --outputDir .
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
