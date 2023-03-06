@@ -20,19 +20,8 @@ concurrency:
   group: "pages"
   cancel-in-progress: true
 
-jobs:
-  i18n:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 16
-      - run: npm i -g static-i18n
-      - run: static-i18n -l fr -i en -i fr . --outputDir .
-  
+jobs:  
   deploy:
-    needs: i18n
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -40,6 +29,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - name: Install static-i18n
+        run: npm i -g static-i18n
+      - name: Translate web pages
+        run: static-i18n -l fr -i en -i fr . --outputDir 
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
