@@ -39,6 +39,19 @@ header
     text-decoration: none;
 }
 
+nav
+{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+nav > a
+{
+    color: white;
+    font-size: 2em;
+}
+
 nav > ul
 {
     margin: 0;
@@ -72,7 +85,7 @@ nav > ul > li > a
 #game
 {
     height: 100vh;
-    background-image: url('src/img/landing.jpg');
+    background-image: url('/src/img/landing.jpg');
     background-color: black;
     background-repeat: no-repeat;
     background-position: top left;

@@ -21,113 +21,114 @@
     <link rel="manifest" href="/site.webmanifest">
 
     <!-- Page styling -->
-    <link href="style.css" rel="stylesheet">
+    <link href="/style.css" rel="stylesheet">
 </head>
 <body>
 
 <header>
-    <a class="logo" href="">Raiders Tactics</a>
+    <a class="logo" href="" data-t>header.title</a>
     <nav>
         <ul>
             <li>
-                <a href="#game">The Game</a>
+                <a href="#game" data-t>header.navbar.game</a>
             </li>
             <li>
-                <a href="#team">Our Team</a>
+                <a href="#team" data-t>header.navbar.team</a>
             </li>
             <li>
-                <a href="#download">Download</a>
+                <a href="#download" data-t>header.navbar.download</a>
             </li>
         </ul>
+        <a data-attr-t href-t="header.translate"><i class="fa-solid fa-language"></i></a>
     </nav>
 </header>
 
 <section id="game">
     <div class="container">
         <div class="description">
-            <h2>Step into <em>action</em></h2>
-            <p>42 Seconds to EPITA is happy to present you Raiders tactics. Immerse yourself into a tactical RTS and take control of your units to make your way through your opponents.</p>
+            <h2 data-t>game.catch-phrase</h2>
+            <p data-t>game.description</p>
 
-            <a class="btn-grad" href="#download">Download Now!</a>
+            <a class="btn-grad" href="#download" data-t>game.download-btn</a>
         </div>
-        <img src="src/img/logo.png" alt="Raiders tactics logo">
+        <img src="/src/img/logo.png" alt="Raiders Tactics logo">
     </div>
 </section>
 
 <section id="team">
     <div class="intro">
-        <h2>Our <em>team</em></h2>
-        <p>42 Seconds to EPITA is made up of passionate first-year students from EPITA engineering school.</p>
+        <h2 data-t>team.title</h2>
+        <p data-t>team.description</p>
     </div>
 
     <div class="members">
         <article>
-            <img src="src/img/alex.jpg" alt="Alex Dreau">
+            <img src="/src/img/alex.jpg" alt="Alex Dreau">
             <h3>Alex Dreau</h3>
 
-            <p>Group leader</p>
+            <p data-t>team.roles.leader</p>
         </article>
 
         <article>
-            <img src="src/img/arthur.jpg" alt="Arthur Barreau">
+            <img src="/src/img/arthur.jpg" alt="Arthur Barreau">
             <h3>Arthur Barreau</h3>
 
-            <p>Developer</p>
+            <p data-t>team.roles.developer</p>
         </article>
 
         <article>
-            <img src="src/img/kevin.jpg" alt="Kévin Lubert">
+            <img src="/src/img/kevin.jpg" alt="Kévin Lubert">
             <h3>Kévin Lubert</h3>
 
-            <p>Developer</p>
+            <p data-t>team.roles.developer</p>
         </article>
 
         <article>
-            <img src="src/img/romain.jpg" alt="Romain Seznec">
+            <img src="/src/img/romain.jpg" alt="Romain Seznec">
             <h3>Romain Seznec</h3>
 
-            <p>Developer</p>
+            <p data-t>team.roles.developer</p>
         </article>
     </div>
 </section>
 
 <section id="download">
-    <h2><em>Download</em> now!</h2>
-    <p>All resources from the game to enjoy are available here.</p>
+    <h2 data-t>download.title</h2>
+    <p data-t>download.description</p>
 
-    <h3>Documentation</h3>
+    <h3 data-t>download.documentation.title</h3>
     <article>
-        <h4>Specifications book</h4>
-        <p>All there is to know about Raiders Tactics development!</p>
+        <h4 data-t>download.documentation.specifications.title</h4>
+        <p data-t>download.documentation.specifications.description</p>
         <ul>
             <li>
-                <p><i class="fa-solid fa-download"></i> Specifications Book (French)</p>
-                <a href="src/pdf/Specifications.pdf" target="_blank"><i class="fa-solid fa-file-pdf"></i> Download PDF</a>
+                <p><i class="fa-solid fa-download"></i> <span data-t>download.documentation.specifications.download</span></p>
+                <a href="/src/pdf/Specifications.pdf" target="_blank"><i class="fa-solid fa-file-pdf"></i> <span data-t>download.documentation.download-pdf</span></a>
             </li>
         </ul>
     </article>
 
     <article>
-        <h4>First presentation - 10 March 2023</h4>
-        <p>Presentation report that sums up everything done since the book of specifications and the outline of the presentation.</p>
+        <h4 data-t>download.documentation.first-presentation.title</h4>
+        <p data-t>download.documentation.first-presentation.description</p>
         <ul>
             <li>
-                <p><i class="fa-solid fa-download"></i> Presentation Report (French)</p>
-                <a href="src/pdf/Presentation_Report-10_March_2023.pdf" target="_blank"><i class="fa-solid fa-file-pdf"></i> Download PDF</a>
+                <p><i class="fa-solid fa-download"></i> <span data-t>download.documentation.first-presentation.download-report</span></p>
+                <a href="/src/pdf/Presentation_Report-10_March_2023.pdf" target="_blank"><i class="fa-solid fa-file-pdf"></i> <span data-t>download.documentation.download-pdf</span></a>
             </li>
             <li>
-                <p><i class="fa-solid fa-download"></i> Presentation Outline (French)</p>
-                <a href="src/pdf/Presentation_Report-10_March_2023.pdf" target="_blank"><i class="fa-solid fa-file-pdf"></i> Download PDF</a>
+                <p><i class="fa-solid fa-download"></i> <span data-t>download.documentation.first-presentation.download-outline</span></p>
+                <a href="/src/pdf/Presentation_Report-10_March_2023.pdf" target="_blank"><i class="fa-solid fa-file-pdf"></i> <span data-t>download.documentation.download-pdf</span></a>
             </li>
         </ul>
     </article>
 
-    <h3>Game download</h3>
-    <p>The game isn't available to download yet. Take a glimpse of our progress by looking up our presentation reports!</p>
+    <h3 data-t>download.game.title</h3>
+    <p data-t>download.game.description</p>
 </section>
 
 <footer>
-    <p>Raiders Tactics is made with <i class="fa-solid fa-heart"></i> by 42 Seconds To EPITA — 2023</p>
+    <p data-t>footer.description</p>
     <ul>
         <li><a href="mailto:contact@raiders-tactics.com"><i class="fa-solid fa-envelope"></i> contact@raiders-tactics.com</a></li>
         <li><a href="https://github.com/42-seconds-to-Epita" target="_blank"><i class="fa-brands fa-github"></i> Github</a></li>

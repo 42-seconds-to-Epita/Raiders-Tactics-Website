@@ -1,0 +1,50 @@
+{
+  "header": {
+    "title": "Raiders Tactics",
+    "navbar": {
+      "game": "Le Jeu",
+      "team": "Notre Équipe",
+      "download": "Télécharger"
+    },
+    "translate": "/en/index.html"
+  },
+  "game": {
+    "catch-phrase": "Entrez dans l'<em>action</em>",
+    "description": "42 Seconds to EPITA a l'honneur de vous présenter Raiders tactics. Plongez dans ce RTS tactique et prenez contrôle de vos unités pour vaincre vos ennemis.",
+    "download-btn": "Télécharger maintenant !"
+  },
+  "team": {
+    "title": "Notre <em>équipe</em>",
+    "description": "42 Seconds to EPITA est constituée d'étudiants passionnés en première année à l'école d'ingénieurs EPITA.",
+    "roles": {
+      "leader": "Chef de groupe",
+      "developer": "Développeur"
+    }
+  },
+  "download": {
+    "title": "<em>Télécharger</em> maintenant !",
+    "description": "Toutes les ressources du jeu sont disponibles ici.",
+    "documentation": {
+      "title": "Documentation",
+      "download-pdf": "Télécharger en PDF",
+      "specifications": {
+        "title": "Cahier des charges",
+        "description": "Tout ce qu'il faut savoir sur le développement de Raiders Tactics !",
+        "download": "Cahier des charges"
+      },
+      "first-presentation": {
+        "title": "Première soutenance - 10 mars 2023",
+        "description": "Plan et rapport de soutenance qui résume le développement du jeu depuis l'édition du cahier des charges.",
+        "download-report": "Rapport de soutenance",
+        "download-outline": "Plan de soutenance"
+      }
+    },
+    "game": {
+      "title": "Téléchargement du jeu",
+      "description": "Le téléchargement du jeu n'est pas encore disponible. Tenez vous à jour de la progression du développement avec les rapports de soutenances !"
+    }
+  },
+  "footer": {
+    "description": "Raiders Tactics est réalisé avec <i class=\"fa-solid fa-heart\"></i> par 42 Seconds To EPITA — 2023"
+  }
+}

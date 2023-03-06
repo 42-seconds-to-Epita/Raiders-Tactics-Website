@@ -1,0 +1,50 @@
+{
+  "header": {
+    "title": "Raiders Tactics",
+    "navbar": {
+      "game": "The Game",
+      "team": "Our Team",
+      "download": "Download"
+    },
+    "translate": "/"
+  },
+  "game": {
+    "catch-phrase": "Step into <em>action</em>",
+    "description": "42 Seconds to EPITA is happy to present you Raiders tactics. Immerse yourself into a tactical RTS and take control of your units to make your way through your opponents.",
+    "download-btn": "Download now!"
+  },
+  "team": {
+    "title": "Our <em>team</em>",
+    "description": "42 Seconds to EPITA is made up of passionate first-year students from EPITA engineering school.",
+    "roles": {
+      "leader": "Group leader",
+      "developer": "Developer"
+    }
+  },
+  "download": {
+    "title": "<em>Download</em> now!",
+    "description": "All resources from the game to enjoy are available here.",
+    "documentation": {
+      "title": "Documentation",
+      "download-pdf": "Download PDF",
+      "specifications": {
+        "title": "Specifications book",
+        "description": "All there is to know about Raiders Tactics development!",
+        "download": "Specifications book (French)"
+      },
+      "first-presentation": {
+        "title": "First presentation - 10 March 2023",
+        "description": "Presentation report that sums up everything done since the book of specifications and the outline of the presentation.",
+        "download-report": "Presentation Report (French)",
+        "download-outline": "Presentation Outline (French)"
+      }
+    },
+    "game": {
+      "title": "Game download",
+      "description": "The game isn't available to download yet. Take a glimpse of our progress by looking up our presentation reports!"
+    }
+  },
+  "footer": {
+    "description": "Raiders Tactics is made with <i class=\"fa-solid fa-heart\"></i> by 42 Seconds To EPITA — 2023"
+  }
+}
