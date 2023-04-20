@@ -20,8 +20,7 @@ concurrency:
   group: "pages"
   cancel-in-progress: true
 
-jobs:
-  # Single deploy job since we're just deploying
+jobs:  
   deploy:
     environment:
       name: github-pages
@@ -30,6 +29,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - run: npm i -g static-i18n
+      - run: static-i18n -l fr -i en -i fr . --outputDir .
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
