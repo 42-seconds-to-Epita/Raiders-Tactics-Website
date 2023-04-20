@@ -37,6 +37,12 @@
         "description": "Presentation report that sums up everything done since the book of specifications and the outline of the presentation.",
         "download-report": "Presentation Report (French)",
         "download-outline": "Presentation Outline (French)"
+      },
+      "second-presentation": {
+        "title": "Second presentation - 20 March 2023",
+        "description": "Presentation report that sums up everything done since the first presentation.",
+        "download-report": "Presentation Report (French)",
+        "download-outline": "Presentation Outline (French)"
       }
     },
     "game": {

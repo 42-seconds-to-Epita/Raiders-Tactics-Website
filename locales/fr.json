@@ -11,7 +11,7 @@
   "game": {
     "catch-phrase": "Entrez dans l'<em>action</em>",
     "description": "42 Seconds to EPITA a l'honneur de vous présenter Raiders tactics. Plongez dans ce RTS tactique et prenez contrôle de vos unités pour vaincre vos ennemis.",
-    "download-btn": "Télécharger maintenant !"
+    "download-btn": "Téléchargez maintenant !"
   },
   "team": {
     "title": "Notre <em>équipe</em>",
@@ -35,6 +35,12 @@
       "first-presentation": {
         "title": "Première soutenance - 10 mars 2023",
         "description": "Plan et rapport de soutenance qui résume le développement du jeu depuis l'édition du cahier des charges.",
+        "download-report": "Rapport de soutenance",
+        "download-outline": "Plan de soutenance"
+      },
+      "second-presentation": {
+        "title": "Seconde soutenance - 20 mars 2023",
+        "description": "Plan et rapport de soutenance qui résume le développement du jeu depuis la première soutenance.",
         "download-report": "Rapport de soutenance",
         "download-outline": "Plan de soutenance"
       }
