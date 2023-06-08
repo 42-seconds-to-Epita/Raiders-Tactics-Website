@@ -43,11 +43,20 @@
         "description": "Plan et rapport de soutenance qui résume le développement du jeu depuis la première soutenance.",
         "download-report": "Rapport de soutenance",
         "download-outline": "Plan de soutenance"
+      },
+      "final-presentation": {
+        "title": "Soutenance finale - 08 juin 2023",
+        "description": "Plan et rapport de soutenance qui résume le développement du jeu depuis la première soutenance jusqu'à la fin du projet.",
+        "download-report": "Rapport de soutenance",
+        "download-outline": "Plan de soutenance",
+        "download-cover": "Boite de jeu",
+        "download-manuel": "Manuel du jeu"
       }
     },
     "game": {
       "title": "Téléchargement du jeu",
-      "description": "Le téléchargement du jeu n'est pas encore disponible. Tenez vous à jour de la progression du développement avec les rapports de soutenances !"
+      "description": "Téléchargez maintenant le jeu sous Windows !",
+      "download-windows-btn": "Télécharger le fichier exécutable"
     }
   },
   "footer": {

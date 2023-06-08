@@ -43,11 +43,20 @@
         "description": "Presentation report that sums up everything done since the first presentation.",
         "download-report": "Presentation Report (French)",
         "download-outline": "Presentation Outline (French)"
+      },
+      "final-presentation": {
+        "title": "Final presentation - 08 June 2023",
+        "description": "Presentation report that sums up everything done since the first presentation until the very end.",
+        "download-report": "Presentation Report (French)",
+        "download-outline": "Presentation Outline (French)",
+        "download-cover": "Game cover (French)",
+        "download-manuel": "Manual (French)"
       }
     },
     "game": {
       "title": "Game download",
-      "description": "The game isn't available to download yet. Take a glimpse of our progress by looking up our presentation reports!"
+      "description": "Download the game now on Windows",
+      "download-windows-btn": "Executable download"
     }
   },
   "footer": {
