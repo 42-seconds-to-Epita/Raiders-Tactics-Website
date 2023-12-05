@@ -1,8 +1,8 @@
 {
   "header": {
-    "title": "Raiders Tactics",
+    "title": "Raiders Sudoku",
     "navbar": {
-      "game": "Le Jeu",
+      "game": "OCR",
       "team": "Notre Équipe",
       "download": "Télécharger"
     },
@@ -23,7 +23,7 @@
   },
   "download": {
     "title": "<em>Télécharger</em> maintenant !",
-    "description": "Toutes les ressources du jeu sont disponibles ici.",
+    "description": "Toutes les ressources de notre OCR sont disponibles ici.",
     "documentation": {
       "title": "Documentation",
       "download-pdf": "Télécharger en PDF",
