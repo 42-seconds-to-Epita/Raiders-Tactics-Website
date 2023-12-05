@@ -10,12 +10,12 @@
   },
   "game": {
     "catch-phrase": "Entrez dans l'<em>action</em>",
-    "description": "42 Seconds to EPITA a l'honneur de vous présenter Raiders tactics. Plongez dans ce RTS tactique et prenez contrôle de vos unités pour vaincre vos ennemis.",
+    "description": "42 Seconds to EPITA a l'honneur de vous présenter Raiders Sudoku.",
     "download-btn": "Téléchargez maintenant !"
   },
   "team": {
     "title": "Notre <em>équipe</em>",
-    "description": "42 Seconds to EPITA est constituée d'étudiants passionnés en première année à l'école d'ingénieurs EPITA.",
+    "description": "42 Seconds to EPITA est constituée d'étudiants passionnés en seconde année à l'école d'ingénieurs EPITA.",
     "roles": {
       "leader": "Chef de groupe",
       "developer": "Développeur"
@@ -33,20 +33,20 @@
         "download": "Cahier des charges"
       },
       "first-presentation": {
-        "title": "Première soutenance - 10 mars 2023",
-        "description": "Plan et rapport de soutenance qui résume le développement du jeu depuis l'édition du cahier des charges.",
+        "title": "Première soutenance - 9 Novembre 2023",
+        "description": "Plan et rapport de soutenance qui résume le développement de l'OCR.",
         "download-report": "Rapport de soutenance",
         "download-outline": "Plan de soutenance"
       },
       "second-presentation": {
-        "title": "Seconde soutenance - 20 avril 2023",
-        "description": "Plan et rapport de soutenance qui résume le développement du jeu depuis la première soutenance.",
+        "title": "Seconde soutenance - 7 Decembre 2023",
+        "description": "Plan et rapport de soutenance qui résume le développement de l'OCR depuis la première soutenance.",
         "download-report": "Rapport de soutenance",
         "download-outline": "Plan de soutenance"
       },
       "final-presentation": {
-        "title": "Soutenance finale - 08 juin 2023",
-        "description": "Plan et rapport de soutenance qui résume le développement du jeu depuis la première soutenance jusqu'à la fin du projet.",
+        "title": "Soutenance finale - 07 Decembre 2023",
+        "description": "Plan et rapport de soutenance qui résume le développement de l'OCR depuis la première soutenance jusqu'à la fin du projet.",
         "download-report": "Rapport de soutenance",
         "download-outline": "Plan de soutenance",
         "download-cover": "Boite de jeu",
@@ -54,7 +54,7 @@
       }
     },
     "game": {
-      "title": "Téléchargement du jeu",
+      "title": "Téléchargement de l'OCR",
       "description": "Téléchargez maintenant le jeu sous Windows !",
       "download-windows-btn": "Télécharger le fichier exécutable"
     }
